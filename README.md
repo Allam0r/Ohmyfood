@@ -4,15 +4,15 @@ _Dynamisez une page web avec des animations CSS_
 
 ### Compatibilité
 
-La cible étant les personnes connectées et pressées, le site sera développé en utilisant l’approche mobile-first.
-Pour cette raison, seules des maquettes mobiles seront réalisées.
-Sur tablette et desktop, le site devra s’adapter, mais ces supports n’étant pas prioritaires, leur mise en page est libre.
+_La cible étant les personnes connectées et pressées, le site sera développé en utilisant l’approche mobile-first._
+_Pour cette raison, seules des maquettes mobiles seront réalisées._
+_Sur tablette et desktop, le site devra s’adapter, mais ces supports n’étant pas prioritaires, leur mise en page est libre._
 
 ● L’ensemble du site devra être responsive sur mobile, tablette et desktop.  
 ● Les pages devront passer la validation W3C en HTML et CSS sans erreur.  
 ● Le site doit être parfaitement compatible avec les dernières versions desktop de Chrome et Firefox.
 
-### Contenu des pages
+# Contenu des pages
 
 ## Page d'accueil
 
