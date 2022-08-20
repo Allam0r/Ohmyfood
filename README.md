@@ -12,10 +12,6 @@ Sur tablette et desktop, le site devra s’adapter, mais ces supports n’étant
 ● Les pages devront passer la validation W3C en HTML et CSS sans erreur.  
 ● Le site doit être parfaitement compatible avec les dernières versions desktop de Chrome et Firefox.
 
-## Livrables attendus
-
-### Contenu des pages
-
 ## Page d'accueil
 
 ● Affichage de la localisation des restaurants. À terme il sera possible de choisir sa localisation pour trouver des restaurants proches d’un certain lieu.  
