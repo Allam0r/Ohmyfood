@@ -8,14 +8,4 @@ a {
   color: inherit;
 }
 
-h3, p {
-  font-family: "Roboto", sans-serif;
-}
-
-header {
-  display: flex;
-  justify-content: center;
-  font-family: "Shrikhand", cursive;
-}
-
 /*# sourceMappingURL=restaurant.css.map */
