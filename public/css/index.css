@@ -17,4 +17,35 @@ header img {
   height: 25px;
 }
 
+footer {
+  background: #353535;
+  padding: 25px;
+}
+footer .logo h3 {
+  color: white;
+  font-family: "Shrikhand", cursive;
+  font-size: 16px;
+  padding-bottom: 25px;
+}
+
+.footer_block_links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer_block_links .footer_block_link {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.footer_block_links .footer_block_link i {
+  color: white;
+  width: 10px;
+  font-size: 12px;
+}
+.footer_block_links .footer_block_link h3 {
+  color: white;
+  font-size: 15px;
+}
+
 /*# sourceMappingURL=index.css.map */
