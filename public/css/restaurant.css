@@ -36,16 +36,16 @@ footer .logo h3 {
 .footer_block_links .footer_block_link {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 15px;
 }
 .footer_block_links .footer_block_link i {
   color: white;
   width: 10px;
-  font-size: 12px;
 }
 .footer_block_links .footer_block_link h3 {
   color: white;
   font-size: 15px;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=restaurant.css.map */

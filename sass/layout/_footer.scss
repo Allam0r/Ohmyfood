@@ -16,15 +16,15 @@ footer {
     .footer_block_link{
         display: flex;
         flex-direction: row;
-        gap: 10px;
+        gap: 15px;
         i {
             color: white;
             width: 10px;
-            font-size: 12px;
         }
         h3 {
             color: white;
             font-size: 15px;
+            font-weight: 400;
         }
     }
 }
