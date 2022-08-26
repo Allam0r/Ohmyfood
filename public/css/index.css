@@ -48,4 +48,43 @@ footer .logo h3 {
   font-weight: 400;
 }
 
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #EAEAEA;
+  box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
+}
+.location .location_icon {
+  padding-right: 10px;
+}
+.location .location_city p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.first_section {
+  display: flex;
+  flex-direction: column;
+  background: #F6F6F6;
+  padding: 40px 0 50px 0;
+}
+.first_section .first_section_container {
+  text-align: center;
+}
+.first_section .first_section_container h2 {
+  padding: 0 65px 20px 65px;
+  font-weight: 800;
+}
+.first_section .first_section_container p {
+  padding: 0 40px 25px 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
 /*# sourceMappingURL=index.css.map */
