@@ -1,14 +1,16 @@
-footer {
+footer{
     background: #353535;
     padding: 25px;
-    .logo h3{
-        color: white;
-        font-family: 'Shrikhand', cursive;
-        font-size: 16px;
-        padding-bottom: 25px;
+.logo{
+    a{
+        h3{
+            color: white;
+            font-family: 'Shrikhand', cursive;
+            font-size: 16px;
+            padding-bottom: 25px;
+        }
     }
 }
-
 .footer_block_links{
     display: flex;
     flex-direction: column;
@@ -27,5 +29,6 @@ footer {
             font-weight: 400;
         }
     }
+     
 }
-
+}
