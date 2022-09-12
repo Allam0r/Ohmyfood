@@ -9,6 +9,17 @@ a {
   color: inherit;
 }
 
+.first_section_button {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 50px;
+  background: linear-gradient(168deg, rgb(238, 115, 218) 0%, rgb(160, 91, 220) 100%);
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.24);
+  height: 50px;
+  cursor: pointer;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -95,13 +106,21 @@ footer .footer_block_links .footer_block_link h3 {
   text-align: center;
 }
 .first_section .first_section_container h2 {
-  padding: 0 65px 20px 65px;
+  padding: 45px 65px 20px 65px;
   font-weight: 800;
+  font-size: 23px;
+  letter-spacing: 0px;
 }
 .first_section .first_section_container p {
   padding: 0 40px 25px 40px;
   font-size: 16px;
   font-weight: 300;
+}
+.first_section .first_section_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 80px 60px 80px;
 }
 
 /*# sourceMappingURL=index.css.map */
