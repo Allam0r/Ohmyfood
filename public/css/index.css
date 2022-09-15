@@ -174,4 +174,12 @@ footer .footer_block_links .footer_block_link h3 {
   font-weight: bold;
 }
 
+.restaurants {
+  display: flex;
+  flex-direction: column;
+}
+.restaurants .restaurant_title {
+  padding: 0 20px 30px 20px;
+}
+
 /*# sourceMappingURL=index.css.map */
