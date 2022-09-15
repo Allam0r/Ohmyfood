@@ -20,6 +20,59 @@ a {
   cursor: pointer;
 }
 
+.restaurant_cards {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 65px;
+}
+.restaurant_cards .restaurant_card {
+  width: auto;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.21);
+  position: relative;
+}
+.restaurant_cards .restaurant_card .restaurant_card_img {
+  overflow: hidden;
+}
+.restaurant_cards .restaurant_card .restaurant_card_img p {
+  position: absolute;
+  z-index: 1;
+  right: 15px;
+  top: 15px;
+  color: #008766;
+  background: #99E2D0;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.restaurant_cards .restaurant_card .restaurant_card_img img {
+  object-fit: cover;
+  width: 100%;
+  height: 175px;
+  border-radius: 20px 20px 0 0;
+}
+.restaurant_cards .restaurant_card .restaurant_block {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  border-radius: 0 0 20px 20px;
+  padding: 15px 25px 20px 15px;
+}
+.restaurant_cards .restaurant_card .restaurant_block .restaurant_block_info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.restaurant_cards .restaurant_card .restaurant_block .restaurant_block_info .restaurant_block_name {
+  font-weight: 800;
+  font-size: 18px;
+}
+.restaurant_cards .restaurant_card .restaurant_block .restaurant_block_hearth {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -177,9 +230,10 @@ footer .footer_block_links .footer_block_link h3 {
 .restaurants {
   display: flex;
   flex-direction: column;
+  padding: 0 20px;
 }
 .restaurants .restaurant_title {
-  padding: 0 20px 30px 20px;
+  padding-bottom: 30px;
 }
 
 /*# sourceMappingURL=index.css.map */
