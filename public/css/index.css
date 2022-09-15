@@ -123,4 +123,55 @@ footer .footer_block_links .footer_block_link h3 {
   margin: 0 80px 60px 80px;
 }
 
+.instance {
+  display: flex;
+  flex-direction: column;
+  padding: 55px 0px 70px 0px;
+}
+.instance .instance_container {
+  padding: 0 20px;
+}
+.instance .instance_container .instance_title {
+  padding-bottom: 35px;
+}
+
+.instance_steps {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 13px;
+}
+.instance_steps .instance_step {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.24);
+  border-radius: 25px;
+  height: 75px;
+  position: relative;
+}
+.instance_steps .instance_step .instance_number {
+  background: rgb(147, 86, 220);
+  color: white;
+  border-radius: 100px;
+  height: 26px;
+  width: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  position: absolute;
+  left: -13px;
+}
+.instance_steps .instance_step .instance_icon {
+  color: #7e7e7e;
+  height: 26px;
+  width: 26px;
+  padding: 0 30px 0 35px;
+  font-size: 20px;
+}
+.instance_steps .instance_step .instance_text {
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=index.css.map */
