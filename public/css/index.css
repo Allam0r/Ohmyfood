@@ -23,6 +23,7 @@ a {
 .restaurant_cards {
   display: flex;
   flex-direction: column;
+  gap: 20px;
   padding-bottom: 65px;
 }
 .restaurant_cards .restaurant_card {

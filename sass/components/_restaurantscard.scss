@@ -1,6 +1,7 @@
 .restaurant_cards {
     display: flex;
     flex-direction: column;
+    gap: 20px;
     padding-bottom: 65px;
     .restaurant_card {
         width: auto;
