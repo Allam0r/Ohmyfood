@@ -17,6 +17,8 @@ a {
   background: linear-gradient(168deg, rgb(238, 115, 218) 0%, rgb(160, 91, 220) 100%);
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.21);
   height: 50px;
+}
+.first_section_button:hover {
   cursor: pointer;
 }
 

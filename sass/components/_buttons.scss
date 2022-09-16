@@ -6,5 +6,7 @@
     background: $button-gradient;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.21);
     height: 50px;
-    cursor: pointer;
+        &:hover{
+            cursor: pointer;
+        }
 }
