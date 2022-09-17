@@ -1,12 +1,18 @@
-.menu_button {
-    color: white;
-    font-size: 15px;
-    font-weight: 400;
-    border-radius: 50px;
-    background: $button-gradient;
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.21);
-    height: 50px;
-    &:hover {
+.bloc_button{
+    padding: 50px 95px;
+    .menu_button {
+        color: white;
+        font-size: 15px;
+        font-weight: 400;
+        border-radius: 50px;
+        background: $button-gradient;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.21);
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover {
         cursor: pointer;
+        }
     }
 }

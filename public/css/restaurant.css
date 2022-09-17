@@ -38,7 +38,10 @@ a {
   text-overflow: ellipsis;
 }
 
-.menu_button {
+.bloc_button {
+  padding: 50px 95px;
+}
+.bloc_button .menu_button {
   color: white;
   font-size: 15px;
   font-weight: 400;
@@ -46,8 +49,11 @@ a {
   background: linear-gradient(178deg, rgb(238, 115, 218) 0%, rgb(160, 91, 220) 100%);
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.21);
   height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.menu_button:hover {
+.bloc_button .menu_button:hover {
   cursor: pointer;
 }
 
@@ -150,12 +156,6 @@ footer .footer_block_links .footer_block_link h3 {
   font-size: 16px;
   font-weight: 400;
   padding: 30px 0 15px 0;
-}
-.bloc_menu .menu_button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 40px 75px 35px 75px;
 }
 
 /*# sourceMappingURL=restaurant.css.map */
