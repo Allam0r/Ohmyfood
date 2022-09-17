@@ -4,7 +4,7 @@
     background: white;
     border-radius: 15px;
     padding: 10px;
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.21);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.144);
     cursor: pointer;
     height: 70px;
     width: auto;
@@ -15,5 +15,6 @@
     .menu_card_desc{
         display: flex;
         justify-content: space-between;
+        font-size: 15px;
     }
 }

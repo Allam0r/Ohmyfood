@@ -16,10 +16,15 @@
             font-size: 28px;
         }
     }
-    h2 {
-        font-size: 16px;
-        font-weight: 400;
-        padding: 30px 0 15px 0;
-    }
+        .listing_menu {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            h2 {
+                font-size: 16px;
+                font-weight: 400;
+                padding: 30px 0 15px 0;
+            }
+        }
 }
 

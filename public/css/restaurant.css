@@ -15,7 +15,7 @@ a {
   background: white;
   border-radius: 15px;
   padding: 10px;
-  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.21);
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.144);
   cursor: pointer;
   height: 70px;
   width: auto;
@@ -27,6 +27,7 @@ a {
 .menu_card .menu_card_desc {
   display: flex;
   justify-content: space-between;
+  font-size: 15px;
 }
 
 header {
@@ -117,7 +118,12 @@ footer .footer_block_links .footer_block_link h3 {
 .bloc_menu .title_restaurant i {
   font-size: 28px;
 }
-.bloc_menu h2 {
+.bloc_menu .listing_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.bloc_menu .listing_menu h2 {
   font-size: 16px;
   font-weight: 400;
   padding: 30px 0 15px 0;
