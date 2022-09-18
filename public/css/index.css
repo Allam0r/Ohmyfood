@@ -15,7 +15,7 @@ a {
   font-weight: 400;
   border-radius: 50px;
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
-  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.21);
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
   height: 50px;
 }
 .first_section_button:hover {
@@ -208,7 +208,7 @@ footer .footer_block_links .footer_block_link h3 {
   cursor: pointer;
 }
 .instance_steps .instance_step .instance_number {
-  background: rgb(147, 86, 220);
+  background: #9356DC;
   color: white;
   border-radius: 100px;
   height: 26px;
