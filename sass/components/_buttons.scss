@@ -6,7 +6,9 @@
     background: $button-gradient;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.21);
     height: 50px;
-    &:hover {
+    &:hover{
         cursor: pointer;
+        background: $button-gradient-reverse;
+        box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.5);
     }
 }

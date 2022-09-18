@@ -23,6 +23,8 @@
         border-radius: 25px;
         height: 75px;
         position: relative;
+        background-color: $color-grey;
+        cursor: pointer;
         .instance_number {
             background: rgba(147, 86, 220) ;
             color: white;
@@ -45,6 +47,12 @@
         }
         .instance_text {
             font-weight: bold;
+        }
+        &:hover{
+            background-color: $color-primary-light;
+            .instance_icon {
+                color: $color-primary;
+            }
         }
     }
 }
