@@ -96,6 +96,7 @@ footer .logo h3 {
 footer .logo h3 a {
   color: white;
   font-family: "Shrikhand", cursive;
+  font-weight: 400;
 }
 footer .footer_block_links {
   display: flex;
