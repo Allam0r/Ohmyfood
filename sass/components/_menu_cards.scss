@@ -1,28 +1,28 @@
 .menu_card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.144);
+  cursor: pointer;
+  height: 70px;
+  width: auto;
+  gap: 5px;
+  h3 {
+    font-size: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .menu_card_desc {
     display: flex;
-    flex-direction: column;
-    background: white;
-    border-radius: 15px;
-    padding: 10px;
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.144);
-    cursor: pointer;
-    height: 70px;
-    width: auto;
-    gap: 5px;
-    h3 {
-        font-size: 18px;
-        overflow: hidden;
-        white-space: nowrap; 
-        text-overflow: ellipsis;
+    justify-content: space-between;
+    font-size: 15px;
+    .desc {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
     }
-    .menu_card_desc{
-        display: flex;
-        justify-content: space-between;
-        font-size: 15px;
-        .desc {
-            overflow: hidden;
-            white-space: nowrap; 
-            text-overflow: ellipsis;
-        }
-    }
+  }
 }

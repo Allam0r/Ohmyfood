@@ -1,21 +1,20 @@
 // Code couleur du site
 
-$color-primary: #9356DC;
-$color-secondary: #FF79DA;
-$color-third: #99E2D0;
-$color-grey: #F6F6F6;
+$color-primary: #9356dc;
+$color-secondary: #ff79da;
+$color-third: #99e2d0;
+$color-grey: #f6f6f6;
 
 // button
 
-$button-gradient: linear-gradient(to bottom right , $color-secondary , $color-primary );
+$button-gradient: linear-gradient(
+  to bottom right,
+  $color-secondary,
+  $color-primary
+);
 // $button-gradient-reverse: linear-gradient(to bottom right , $color-primary , $color-secondary);
 
 //  Restaurant
 
-$background-new: #99E2D0;
+$background-new: #99e2d0;
 $font-new: #008766;
-
-
-
-
-

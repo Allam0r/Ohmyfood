@@ -1,32 +1,31 @@
 .bloc_menu {
-    padding: 25px 15px;
-    background: #F6F6F6 ;
-    border-radius: 35px 35px 0 0;
-    .title_restaurant {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        gap: 35px;
-        h1 {
-            font-family: 'Shrikhand', cursive;
-            font-size: 26px;
-            font-weight: 500;
-        }
-        i {
-            font-size: 28px;
-        }
+  padding: 25px 15px;
+  background: #f6f6f6;
+  border-radius: 35px 35px 0 0;
+  .title_restaurant {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 35px;
+    h1 {
+      font-family: "Shrikhand", cursive;
+      font-size: 26px;
+      font-weight: 500;
     }
-        .listing_menu {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            h2 {
-                font-size: 16px;
-                font-weight: 400;
-                padding: 30px 0 15px 0;
-            }
-        }
+    i {
+      font-size: 28px;
+    }
+  }
+  .listing_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    h2 {
+      font-size: 16px;
+      font-weight: 400;
+      padding: 30px 0 15px 0;
+    }
+  }
 }
-
