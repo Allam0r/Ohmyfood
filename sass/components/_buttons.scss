@@ -1,14 +1,21 @@
 .first_section_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 50px;
     color: white;
     font-size: 15px;
     font-weight: 400;
     border-radius: 50px;
     background: $button-gradient;
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.25);
     height: 50px;
     &:hover{
         cursor: pointer;
-        background: $button-gradient-reverse;
+        // background: $button-gradient-reverse;
+        filter: brightness(1.1);
         box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.5);
+        transition: 0.3s;
     }
 }
