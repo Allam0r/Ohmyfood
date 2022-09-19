@@ -45,9 +45,6 @@ a {
 .restaurant_cards .restaurant_card:hover {
   transform: scale(1.01);
 }
-.restaurant_cards .restaurant_card:hover .restaurant_card_img {
-  filter: brightness(75%);
-}
 .restaurant_cards .restaurant_card .restaurant_card_img {
   overflow: hidden;
   height: 175px;
