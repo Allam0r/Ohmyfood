@@ -10,6 +10,9 @@
     position: relative;
     &:hover {
       transform: scale(1.01);
+      .restaurant_card_img {
+        filter: brightness(75%);
+      }
     }
     .restaurant_card_img {
       overflow: hidden;
