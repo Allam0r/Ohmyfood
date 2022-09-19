@@ -1,4 +1,6 @@
 .bloc_menu {
+  display: flex;
+  flex-direction: column;
   padding: 0 15px;
   background: $color-grey;
   .listing_menu {
@@ -11,4 +13,11 @@
       padding: 30px 0 15px 0;
     }
   }
+}
+
+.order_button {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 85px 0;
+  background: $color-grey;
 }

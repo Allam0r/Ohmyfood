@@ -21,7 +21,6 @@ a {
   border-radius: 50px;
   background: linear-gradient(to bottom right, #ff79da, #9356dc);
   box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.25);
-  height: 50px;
 }
 .first_section_button:hover {
   cursor: pointer;

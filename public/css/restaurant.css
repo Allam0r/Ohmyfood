@@ -39,9 +39,9 @@ a {
 }
 
 .bloc_button {
-  padding: 50px 95px;
-}
-.bloc_button .menu_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
   font-size: 15px;
   font-weight: 400;
@@ -49,12 +49,13 @@ a {
   background: linear-gradient(to bottom right, #ff79da, #9356dc);
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.21);
   height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 190px;
 }
-.bloc_button .menu_button:hover {
+.bloc_button:hover {
   cursor: pointer;
+  filter: brightness(1.1);
+  box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
 }
 
 header {
@@ -156,6 +157,8 @@ footer .footer_block_links .footer_block_link h3 {
 }
 
 .bloc_menu {
+  display: flex;
+  flex-direction: column;
   padding: 0 15px;
   background: #f6f6f6;
 }
@@ -168,6 +171,13 @@ footer .footer_block_links .footer_block_link h3 {
   font-size: 16px;
   font-weight: 400;
   padding: 30px 0 15px 0;
+}
+
+.order_button {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 85px 0;
+  background: #f6f6f6;
 }
 
 /*# sourceMappingURL=restaurant.css.map */
