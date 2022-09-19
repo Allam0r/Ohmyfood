@@ -242,6 +242,7 @@ footer .footer_block_links .footer_block_link h3 {
 .instance_steps .instance_step:hover {
   background-color: #f2eafb;
   transform: scale(1.01);
+  box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.5);
 }
 .instance_steps .instance_step:hover .instance_icon {
   color: #9356dc;
