@@ -42,6 +42,9 @@ a {
   box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.15);
   position: relative;
 }
+.restaurant_cards .restaurant_card:hover {
+  transform: scale(1.01);
+}
 .restaurant_cards .restaurant_card .restaurant_card_img {
   overflow: hidden;
   height: 175px;
