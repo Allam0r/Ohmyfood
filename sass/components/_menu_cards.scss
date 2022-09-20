@@ -14,13 +14,13 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
-    font-size: 16px;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
     width: auto;
     flex: 1;
     h3 {
+      font-size: 17px;
       white-space: nowrap;
       text-overflow: ellipsis;
       overflow: hidden;
@@ -38,6 +38,7 @@
     align-items: flex-end;
     padding: 0 25px 10px 25px;
     width: 50px;
+    font-size: 17px;
   }
   .menu_check {
     display: flex;
