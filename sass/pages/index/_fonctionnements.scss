@@ -23,7 +23,8 @@
     box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.15);
     border-radius: 25px;
     height: 75px;
-    cursor: pointer;
+    transform: scale(1);
+    transition: transform 400ms;
     .instance_number {
       width: 26px;
       height: 26px;
@@ -49,6 +50,7 @@
       font-weight: bold;
     }
     &:hover {
+      cursor: pointer;
       background-color: lighten($color-primary, 35%);
       transform: scale(1.01);
       box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.5);
