@@ -1,28 +1,49 @@
 .menu_card {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   background: white;
   border-radius: 15px;
-  padding: 10px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.144);
   cursor: pointer;
   height: 70px;
   width: auto;
-  gap: 5px;
-  h3 {
-    font-size: 18px;
+  .menu_desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    text-overflow: ellipsis;
+    font-size: 16px;
+    p {
+      font-size: 15px;
+    }
   }
-  .menu_card_desc {
+  .menu_price {
     display: flex;
-    justify-content: space-between;
-    font-size: 15px;
-    .desc {
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: ellipsis;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 25px 10px 25px;
+  }
+  .menu_check {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: $background-new;
+    border-radius: 0 15px 15px 0;
+    i {
+      padding: 25px 20px;
+    }
+  }
+  &:hover {
+    .menu_check {
+      display: flex;
     }
   }
 }
