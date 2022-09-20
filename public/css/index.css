@@ -21,12 +21,14 @@ a {
   border-radius: 50px;
   background: linear-gradient(to bottom right, #ff79da, #9356dc);
   box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  transform: scale(1);
+  transition: transform 200ms;
 }
 .first_section_button:hover {
   cursor: pointer;
   filter: brightness(1.1);
   box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.5);
-  transition: 0.3s;
+  transform: scale(1.02);
 }
 
 .restaurant_cards {
