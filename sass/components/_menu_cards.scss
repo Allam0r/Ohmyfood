@@ -8,29 +8,39 @@
   cursor: pointer;
   height: 70px;
   width: auto;
+  overflow: hidden;
   .menu_desc {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 10px;
     font-size: 16px;
+    white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space: nowrap;
-
+    width: auto;
+    flex: 1;
+    h3 {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
     p {
       font-size: 15px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
     }
   }
   .menu_price {
     display: flex;
-    flex: 1;
     justify-content: flex-end;
     align-items: flex-end;
     padding: 0 25px 10px 25px;
+    width: 50px;
   }
   .menu_check {
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 20px;
@@ -38,13 +48,15 @@
     color: white;
     background: $background-new;
     border-radius: 0 15px 15px 0;
-    i {
-      padding: 25px 20px;
-    }
+    margin-right: -60px;
+    width: 60px;
+    transition-duration: 0.8s;
   }
-  &:hover {
-    .menu_check {
-      display: flex;
-    }
+  &:hover > .menu_check {
+    margin-right: 0px;
+  }
+  &:hover .fa-circle-check {
+    transition: all 0.3s 0.3s;
+    transform: rotate(360deg);
   }
 }
