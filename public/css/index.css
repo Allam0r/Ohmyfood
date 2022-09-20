@@ -46,9 +46,11 @@ a {
   border-radius: 20px;
   box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.15);
   position: relative;
+  transform: scale(1);
+  transition: transform 200ms;
 }
 .restaurant_cards .restaurant_card:hover {
-  box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.5);
+  transform: scale(1.01);
 }
 .restaurant_cards .restaurant_card .restaurant_card_img {
   overflow: hidden;
