@@ -6,11 +6,16 @@
   .listing_menu {
     display: flex;
     flex-direction: column;
-    gap: 15px;
     h2 {
       font-size: 16px;
       font-weight: 400;
-      padding: 30px 0 15px 0;
+      padding: 30px 0 5px 0;
+    }
+    .progress_bar {
+      width: 40px;
+      height: 3px;
+      background: $background-new;
+      margin-bottom: 7.5px;
     }
   }
 }

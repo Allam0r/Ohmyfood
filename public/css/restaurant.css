@@ -24,6 +24,7 @@ a {
   height: 70px;
   width: auto;
   overflow: hidden;
+  margin: 7.5px 0;
 }
 .menu_card .menu_desc {
   display: flex;
@@ -206,12 +207,17 @@ footer .footer_block_links .footer_block_link h3 {
 .bloc_menu .listing_menu {
   display: flex;
   flex-direction: column;
-  gap: 15px;
 }
 .bloc_menu .listing_menu h2 {
   font-size: 16px;
   font-weight: 400;
-  padding: 30px 0 15px 0;
+  padding: 30px 0 5px 0;
+}
+.bloc_menu .listing_menu .progress_bar {
+  width: 40px;
+  height: 3px;
+  background: #99e2d0;
+  margin-bottom: 7.5px;
 }
 
 .order_button {
