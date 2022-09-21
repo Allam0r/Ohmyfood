@@ -218,6 +218,16 @@ footer .footer_block_links .footer_block_link h3 {
   height: 3px;
   background: #99e2d0;
   margin-bottom: 7.5px;
+  transform-origin: 0% 50%;
+  animation: greenbar ease 1500ms;
+}
+@keyframes greenbar {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
 }
 
 .order_button {

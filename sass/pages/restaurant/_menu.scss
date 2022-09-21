@@ -16,6 +16,16 @@
       height: 3px;
       background: $background-new;
       margin-bottom: 7.5px;
+      transform-origin: 0% 50%;
+      animation: greenbar ease 1500ms;
+    }
+    @keyframes greenbar {
+      0% {
+        transform: scaleX(0);
+      }
+      100% {
+        transform: scaleX(1);
+      }
     }
   }
 }
