@@ -91,7 +91,6 @@ a {
   height: 50px;
   width: 190px;
   transform: scale(1);
-  transition: transform 400ms;
 }
 .bloc_button:hover {
   cursor: pointer;
