@@ -202,9 +202,11 @@ footer .footer_block_links .footer_block_link h3 {
 .banner_menu .title_restaurant .full_heart:hover {
   background: -webkit-linear-gradient(#9356dc, #ff79da);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 0;
   -webkit-animation: fill 1s both;
+  animation: fill 1s both;
 }
 @keyframes fill {
   0% {
