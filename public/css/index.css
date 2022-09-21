@@ -97,7 +97,7 @@ a {
   -webkit-text-stroke: 1px black;
   font-size: 26px;
 }
-.restaurant_cards .restaurant_card .restaurant_block .restaurant_block_hearth:hover, .restaurant_cards .restaurant_card .restaurant_block .restaurant_block_hearth:focus {
+.restaurant_cards .restaurant_card .restaurant_block .restaurant_block_hearth:hover {
   background: -webkit-linear-gradient(#9356dc, #ff79da);
   -webkit-background-clip: text;
   background-clip: text;
