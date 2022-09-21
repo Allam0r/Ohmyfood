@@ -92,7 +92,29 @@ a {
   display: flex;
   align-items: center;
   font-size: 28px;
+  cursor: pointer;
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+  font-size: 26px;
 }
+.restaurant_cards .restaurant_card .restaurant_block .restaurant_block_hearth:hover, .restaurant_cards .restaurant_card .restaurant_block .restaurant_block_hearth:focus {
+  background: -webkit-linear-gradient(#9356dc, #ff79da);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0;
+  -webkit-animation: fill 1s both;
+  animation: fill 1s both;
+}
+@keyframes fill {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 header {
   display: flex;
   flex-direction: row;
