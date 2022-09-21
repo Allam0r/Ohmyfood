@@ -204,7 +204,7 @@ footer .footer_block_links .footer_block_link h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 0;
-  -webkit-animation: fill 2s both;
+  -webkit-animation: fill 1s both;
 }
 @keyframes fill {
   0% {
