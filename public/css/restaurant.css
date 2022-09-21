@@ -183,7 +183,7 @@ footer .footer_block_links .footer_block_link h3 {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 40px 15px 0 15px;
+  padding: 40px 25px 0 15px;
 }
 .banner_menu .title_restaurant h1 {
   font-family: "Shrikhand", cursive;
@@ -193,9 +193,26 @@ footer .footer_block_links .footer_block_link h3 {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.banner_menu .title_restaurant i {
+.banner_menu .title_restaurant .full_heart {
+  cursor: pointer;
+  color: transparent;
+  -webkit-text-stroke: 1px black;
   font-size: 26px;
-  padding-right: 25px;
+}
+.banner_menu .title_restaurant .full_heart:hover {
+  background: -webkit-linear-gradient(#9356dc, #ff79da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0;
+  -webkit-animation: fill 2s both;
+}
+@keyframes fill {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .bloc_menu {
