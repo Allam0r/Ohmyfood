@@ -46,7 +46,6 @@ a {
   box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.15);
   position: relative;
   transform: scale(1);
-  transition: transform 200ms ease;
 }
 .restaurant_cards .restaurant_card:hover {
   transform: scale(1.01);
@@ -242,7 +241,6 @@ footer .footer_block_links .footer_block_link h3 {
   border-radius: 25px;
   height: 75px;
   transform: scale(1);
-  transition: transform 400ms;
 }
 .instance_steps .instance_step .instance_number {
   width: 26px;
