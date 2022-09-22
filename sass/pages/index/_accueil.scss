@@ -10,9 +10,9 @@
   gap: 25px;
   z-index: 100;
   position: fixed;
-  -webkit-animation: fadeout 1000ms ease-in-out;
-  -webkit-animation-delay: 5000ms;
-  -webkit-animation-fill-mode: forwards;
+  animation: fadeout 1000ms ease-in-out;
+  animation-delay: 5000ms;
+  animation-fill-mode: forwards;
   p {
     font-family: "Shrikhand", cursive;
     font-size: 50px;
