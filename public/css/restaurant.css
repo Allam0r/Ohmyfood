@@ -26,7 +26,7 @@ a {
   overflow: hidden;
   margin: 7.5px 0;
   transform-origin: top;
-  animation: menu_card 1000ms backwards ease-in-out;
+  animation: menu_card 1500ms backwards ease-in-out;
 }
 .menu_card .menu_desc {
   display: flex;
@@ -79,35 +79,35 @@ a {
   transition-duration: 0.8s;
   transform: rotate(360deg);
 }
-.menu_card--1 {
-  animation-delay: 100ms;
+.menu_card .anim-1 {
+  animation-delay: 150ms;
 }
-.menu_card--2 {
-  animation-delay: 200ms;
-}
-.menu_card--3 {
+.menu_card .anim-2 {
   animation-delay: 300ms;
 }
-.menu_card--4 {
-  animation-delay: 400ms;
+.menu_card .anim-3 {
+  animation-delay: 450ms;
 }
-.menu_card--5 {
-  animation-delay: 500ms;
-}
-.menu_card--6 {
+.menu_card .anim-4 {
   animation-delay: 600ms;
 }
-.menu_card--7 {
-  animation-delay: 700ms;
+.menu_card .anim-5 {
+  animation-delay: 750ms;
 }
-.menu_card--8 {
-  animation-delay: 800ms;
-}
-.menu_card--9 {
+.menu_card .anim-6 {
   animation-delay: 900ms;
 }
-.menu_card--10 {
-  animation-delay: 1000ms;
+.menu_card .anim-7 {
+  animation-delay: 1050ms;
+}
+.menu_card .anim-8 {
+  animation-delay: 1200ms;
+}
+.menu_card .anim-9 {
+  animation-delay: 1350ms;
+}
+.menu_card .anim-10 {
+  animation-delay: 1500ms;
 }
 
 @keyframes menu_card {

@@ -64,7 +64,7 @@
     transform: rotate(360deg);
   }
   @for $i from 1 through $num-bars {
-    &--#{$i} {
+    .anim-#{$i} {
       animation-delay: $anim-delay * $i;
     }
   }
