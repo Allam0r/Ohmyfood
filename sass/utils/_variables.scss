@@ -17,3 +17,9 @@ $button-gradient: linear-gradient(
 
 $background-new: #99e2d0;
 $font-new: #008766;
+
+// Animation menus
+
+$num-bars: 10;
+$anim-duration: 1000ms;
+$anim-delay: $anim-duration / $num-bars;

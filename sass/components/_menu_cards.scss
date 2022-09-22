@@ -10,6 +10,8 @@
   width: auto;
   overflow: hidden;
   margin: 7.5px 0;
+  transform-origin: top;
+  animation: menu_card $anim-duration backwards ease-in-out;
   .menu_desc {
     display: flex;
     flex-direction: column;
@@ -60,5 +62,19 @@
   &:hover .fa-circle-check {
     transition-duration: 0.8s;
     transform: rotate(360deg);
+  }
+  @for $i from 1 through $num-bars {
+    &--#{$i} {
+      animation-delay: $anim-delay * $i;
+    }
+  }
+}
+
+@keyframes menu_card {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
   }
 }
