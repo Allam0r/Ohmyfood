@@ -297,9 +297,9 @@ footer .footer_block_links .footer_block_link h3 {
   gap: 25px;
   z-index: 100;
   position: fixed;
-  animation: fadeout 1000ms ease-in-out;
-  animation-delay: 5000ms;
-  animation-fill-mode: forwards;
+  -webkit-animation: fadeout 1000ms ease-in-out;
+  -webkit-animation-delay: 5000ms;
+  -webkit-animation-fill-mode: forwards;
 }
 .preloader p {
   font-family: "Shrikhand", cursive;
