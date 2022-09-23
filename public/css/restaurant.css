@@ -79,34 +79,34 @@ a {
   transition-duration: 0.8s;
   transform: rotate(360deg);
 }
-.menu_card .anim-1 {
+.menu_card--1 {
   animation-delay: 150ms;
 }
-.menu_card .anim-2 {
+.menu_card--2 {
   animation-delay: 300ms;
 }
-.menu_card .anim-3 {
+.menu_card--3 {
   animation-delay: 450ms;
 }
-.menu_card .anim-4 {
+.menu_card--4 {
   animation-delay: 600ms;
 }
-.menu_card .anim-5 {
+.menu_card--5 {
   animation-delay: 750ms;
 }
-.menu_card .anim-6 {
+.menu_card--6 {
   animation-delay: 900ms;
 }
-.menu_card .anim-7 {
+.menu_card--7 {
   animation-delay: 1050ms;
 }
-.menu_card .anim-8 {
+.menu_card--8 {
   animation-delay: 1200ms;
 }
-.menu_card .anim-9 {
+.menu_card--9 {
   animation-delay: 1350ms;
 }
-.menu_card .anim-10 {
+.menu_card--10 {
   animation-delay: 1500ms;
 }
 
