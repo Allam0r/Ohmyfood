@@ -12,6 +12,11 @@
   margin: 7.5px 0;
   transform-origin: top;
   animation: menu_card $anim-duration backwards ease-in-out;
+  @for $i from 1 through $num-bars {
+    &__#{$i} {
+      animation-delay: $anim-duration * $i;
+    }
+  }
   .menu_desc {
     display: flex;
     flex-direction: column;
@@ -63,18 +68,15 @@
     transition-duration: 0.8s;
     transform: rotate(360deg);
   }
-  @for $i from 1 through $num-bars {
-    &--#{$i} {
-      animation-delay: $anim-delay * $i;
-    }
-  }
 }
 
 @keyframes menu_card {
   0% {
     transform: scaleY(0);
+    opacity: 0;
   }
   100% {
     transform: scaleY(1);
+    opacity: 1;
   }
 }
