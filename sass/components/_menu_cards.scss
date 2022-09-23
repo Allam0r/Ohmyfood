@@ -14,7 +14,7 @@
   animation: menu_card $anim-duration backwards ease-in-out;
   @for $i from 1 through $num-bars {
     &__#{$i} {
-      animation-delay: $anim-duration * $i;
+      animation-delay: ($anim-duration * $i);
     }
   }
   .menu_desc {
