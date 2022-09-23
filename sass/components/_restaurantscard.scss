@@ -61,8 +61,8 @@
           background-clip: text;
           -webkit-text-fill-color: transparent;
           -webkit-text-stroke: 0;
-          -webkit-animation: fill 1s both;
-          animation: fill 1s both;
+          -webkit-animation: fill 1s;
+          animation: fill 1s;
         }
       }
       @keyframes fill {
