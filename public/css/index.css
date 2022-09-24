@@ -231,7 +231,6 @@ footer .footer_block_links .footer_block_link h3 {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding-left: 15px;
 }
 .instance_steps .instance_step {
   display: flex;

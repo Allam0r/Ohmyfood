@@ -22,4 +22,4 @@ $font-new: #008766;
 
 $num-bars: 10;
 $anim-duration: 500ms;
-$anim-delay: $anim-duration / $num-bars;
+$anim-delay: ($anim-duration / $num-bars);
