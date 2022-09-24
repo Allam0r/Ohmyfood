@@ -1,3 +1,11 @@
+@keyframes fill-heart {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 html {
   scroll-behavior: smooth;
 }
@@ -120,14 +128,6 @@ a {
   animation: transform 400ms cubic-bezier(0.43, 0.21, 1, 0.45);
 }
 
-@keyframes fill-heart {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
-}
 @media only screen and (min-width: 1440px) {
   .restaurant_cards {
     flex-direction: row;

@@ -1,3 +1,11 @@
+@keyframes fill-heart {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 html {
   scroll-behavior: smooth;
 }
@@ -283,14 +291,6 @@ footer .footer_block_links .footer_block_link h3 {
   animation: transform 400ms cubic-bezier(0.43, 0.21, 1, 0.45);
 }
 
-@keyframes fill-heart {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
-}
 .bloc_menu {
   display: flex;
   flex-direction: column;
