@@ -114,6 +114,11 @@ a {
   }
 }
 
+@media only screen and (min-width: 1440px) {
+  .restaurant_cards {
+    flex-direction: row;
+  }
+}
 header {
   display: flex;
   flex-direction: row;
@@ -144,6 +149,9 @@ header .top img {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   background: #353535;
   padding: 25px 0 25px 25px;
 }
@@ -158,6 +166,8 @@ footer .logo h3 a {
 footer .footer_block_links {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
   gap: 10px;
 }
 footer .footer_block_links .footer_block_link {
@@ -175,6 +185,16 @@ footer .footer_block_links .footer_block_link h3 {
   font-weight: 400;
 }
 
+@media only screen and (min-device-width: 768px) {
+  footer {
+    padding: 25px;
+    align-items: center;
+  }
+  footer .footer_block_links {
+    flex-direction: row;
+    gap: 50px;
+  }
+}
 .first_section {
   display: flex;
   flex-direction: column;
@@ -231,6 +251,7 @@ footer .footer_block_links .footer_block_link h3 {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding-left: 15px;
 }
 .instance_steps .instance_step {
   display: flex;
@@ -263,7 +284,7 @@ footer .footer_block_links .footer_block_link h3 {
   color: #838383;
 }
 .instance_steps .instance_step .instance_text {
-  padding-left: 15px;
+  padding: 0 15px;
   font-weight: bold;
 }
 .instance_steps .instance_step:hover {
@@ -275,6 +296,22 @@ footer .footer_block_links .footer_block_link h3 {
   color: #9356dc;
 }
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1440px) {
+  .instance_steps {
+    flex-direction: row;
+  }
+  .instance_steps .instance_step {
+    flex: 1;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .instance_steps {
+    flex-direction: row;
+  }
+  .instance_steps .instance_step {
+    flex: 1;
+  }
+}
 #restaurants {
   display: flex;
   flex-direction: column;

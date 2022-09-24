@@ -14,6 +14,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding-left: 15px;
   .instance_step {
     display: flex;
     flex-direction: row;
@@ -44,7 +45,7 @@
       color: darken($color-grey, 45%);
     }
     .instance_text {
-      padding-left: 15px;
+      padding: 0 15px;
       font-weight: bold;
     }
     &:hover {
@@ -54,6 +55,24 @@
       .instance_icon {
         color: $color-primary;
       }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1440px) {
+  .instance_steps {
+    flex-direction: row;
+    .instance_step {
+      flex: 1;
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .instance_steps {
+    flex-direction: row;
+    .instance_step {
+      flex: 1;
     }
   }
 }

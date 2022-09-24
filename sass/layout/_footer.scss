@@ -1,4 +1,7 @@
 footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   background: #353535;
   padding: 25px 0 25px 25px;
   .logo {
@@ -14,6 +17,8 @@ footer {
   .footer_block_links {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     gap: 10px;
     .footer_block_link {
       display: flex;
@@ -28,6 +33,17 @@ footer {
         font-size: 15px;
         font-weight: 400;
       }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 768px) {
+  footer {
+    padding: 25px;
+    align-items: center;
+    .footer_block_links {
+      flex-direction: row;
+      gap: 50px;
     }
   }
 }
