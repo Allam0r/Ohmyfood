@@ -1,0 +1,9 @@
+#restaurants {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 20px 65px 20px;
+  background-color: $color-grey;
+  .restaurant_title {
+    padding-bottom: 30px;
+  }
+}

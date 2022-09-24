@@ -1,0 +1,82 @@
+.menu_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.144);
+  cursor: pointer;
+  height: 70px;
+  width: 100%;
+  overflow: hidden;
+  margin: 7.5px 0;
+  transform-origin: top;
+  animation: menu_card $anim-duration backwards ease-in-out;
+  @for $i from 1 through $num-bars {
+    &__#{$i} {
+      animation-delay: ($anim-duration * $i);
+    }
+  }
+  .menu_desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    flex: 1;
+    h3 {
+      font-size: 17px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    p {
+      font-size: 15px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+  }
+  .menu_price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 25px 10px 25px;
+    width: 50px;
+    font-size: 17px;
+  }
+  .menu_check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: $background-new;
+    border-radius: 0 15px 15px 0;
+    margin-right: -60px;
+    width: 60px;
+    transition-duration: 0.8s;
+  }
+  &:hover > .menu_check {
+    margin-right: 0px;
+  }
+  &:hover .fa-circle-check {
+    transition-duration: 0.8s;
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes menu_card {
+  0% {
+    transform: scaleY(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}

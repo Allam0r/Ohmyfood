@@ -3,8 +3,13 @@
 
 @import "./base/reset";
 
+@import "./components/buttons";
+@import "./components/restaurantscard";
+
 @import "./layout/header";
 @import "./layout/footer";
 
+@import "./pages/index/entete";
 @import "./pages/index/fonctionnements";
+@import "./pages/index/restaurant_list";
 @import "./pages/index/accueil";
