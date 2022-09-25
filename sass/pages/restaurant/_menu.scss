@@ -28,6 +28,12 @@
   justify-content: center;
   padding: 50px 0 85px 0;
   background: $color-grey;
+  .bloc_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include btn(190px);
+  }
 }
 
 @keyframes greenbar_anim {

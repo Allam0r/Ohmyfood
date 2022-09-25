@@ -21,27 +21,6 @@ a {
   color: inherit;
 }
 
-.first_section_button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 220px;
-  height: 50px;
-  color: white;
-  font-size: 15px;
-  font-weight: 400;
-  border-radius: 50px;
-  background: linear-gradient(to bottom right, #ff79da, #9356dc);
-  box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.25);
-  transform: scale(1);
-}
-.first_section_button:hover {
-  cursor: pointer;
-  filter: brightness(1.1);
-  box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.5);
-  transform: scale(1.01);
-}
-
 .restaurant_cards {
   display: flex;
   flex-direction: column;
@@ -247,6 +226,26 @@ footer .footer_block_links .footer_block_link h3 {
   font-size: 16px;
   font-weight: 300;
   padding-bottom: 25px;
+}
+.first_section .first_section_container .first_section_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 50px;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 50px;
+  background: linear-gradient(to bottom right, #ff79da, #9356dc);
+  box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  transform: scale(1);
+}
+.first_section .first_section_container .first_section_button:hover {
+  cursor: pointer;
+  filter: brightness(1.1);
+  box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.5);
+  transform: scale(1.01);
 }
 
 .instance {
