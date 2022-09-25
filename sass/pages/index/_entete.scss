@@ -41,5 +41,11 @@
       font-weight: 300;
       padding-bottom: 25px;
     }
+    .first_section_button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @include btn(220px);
+    }
   }
 }
