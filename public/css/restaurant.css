@@ -194,14 +194,10 @@ footer .footer_block_links .footer_block_link h3 {
   font-weight: 400;
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   footer {
     padding: 25px;
-    align-items: center;
-  }
-  footer .footer_block_links {
-    flex-direction: row;
-    gap: 50px;
+    justify-content: center;
   }
 }
 .banner_menu {
