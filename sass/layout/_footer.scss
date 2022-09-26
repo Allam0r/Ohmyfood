@@ -37,13 +37,9 @@ footer {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   footer {
     padding: 25px;
-    align-items: center;
-    .footer_block_links {
-      flex-direction: row;
-      gap: 50px;
-    }
+    justify-content: center;
   }
 }
