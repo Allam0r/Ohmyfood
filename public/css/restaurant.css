@@ -194,6 +194,16 @@ footer .footer_block_links .footer_block_link h3 {
   font-weight: 400;
 }
 
+@media screen and (min-width: 1024px) {
+  footer {
+    align-items: center;
+    padding: 25px 0;
+  }
+  footer .footer_block_links {
+    flex-direction: row;
+    gap: 50px;
+  }
+}
 .banner_menu {
   position: relative;
 }
@@ -260,6 +270,11 @@ footer .footer_block_links .footer_block_link h3 {
   animation: transform 400ms cubic-bezier(0.43, 0.21, 1, 0.45);
 }
 
+@media screen and (min-width: 1440px) {
+  .banner_menu .restaurant_picture {
+    height: 400px;
+  }
+}
 .bloc_menu {
   display: flex;
   flex-direction: column;
