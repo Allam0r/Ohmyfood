@@ -107,7 +107,7 @@ a {
   animation: transform 400ms cubic-bezier(0.43, 0.21, 1, 0.45);
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .restaurant_cards {
     flex-direction: row;
   }
@@ -178,7 +178,7 @@ footer .footer_block_links .footer_block_link h3 {
   font-weight: 400;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   footer {
     align-items: center;
     padding: 25px 0;
@@ -309,15 +309,7 @@ footer .footer_block_links .footer_block_link h3 {
   color: #9356dc;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
-  .instance_steps {
-    flex-direction: row;
-  }
-  .instance_steps .instance_step {
-    flex: 1;
-  }
-}
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) {
   .instance_steps {
     flex-direction: row;
   }
