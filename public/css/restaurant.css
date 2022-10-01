@@ -33,7 +33,7 @@ a {
   width: 100%;
   overflow: hidden;
   margin: 7.5px 0;
-  transform-origin: top;
+  transform-origin: bottom;
   animation: menu_card 500ms backwards ease-in-out;
 }
 .menu_card__1 {
@@ -114,6 +114,7 @@ a {
   margin-right: 0px;
 }
 .menu_card:hover .fa-circle-check {
+  transition-delay: 0.3s;
   transition-duration: 0.8s;
   transform: rotate(360deg);
 }
