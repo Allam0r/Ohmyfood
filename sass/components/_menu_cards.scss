@@ -10,7 +10,7 @@
   width: 100%;
   overflow: hidden;
   margin: 7.5px 0;
-  transform-origin: top;
+  transform-origin: bottom;
   animation: menu_card $anim-duration backwards ease-in-out;
   @for $i from 1 through $num-bars {
     &__#{$i} {
