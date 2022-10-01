@@ -65,6 +65,7 @@
     margin-right: 0px;
   }
   &:hover .fa-circle-check {
+    transition-delay: 0.3s;
     transition-duration: 0.8s;
     transform: rotate(360deg);
   }
